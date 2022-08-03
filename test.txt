@@ -1,2 +1,6 @@
 testing git commands...
 git checkout -b <branchname> : command to create new branch and switch to it
+git reset --hard <commit_id> : command used to shift to particular commit
+
+When you edit any file in remote branch then it is in the "remote workspace". Similar to "local workspace."
+When you commit in the "remote workspace", then it goes to "remote/origin repository".
